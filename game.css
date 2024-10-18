@@ -1,0 +1,42 @@
+html,
+.centered-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+
+    border: 5px solid #444;
+    background-color: green;
+
+}
+
+.top-left{
+    top: 0;
+    left: 0; 
+}
+
+body {
+    background-color: burlywood;
+}
+
+button {
+    font-family: monospace;
+    background-color: darkgoldenrod;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+  button:hover {
+    background-color: gray;
+    box-shadow: 0 0 0 5px black;
+    color:black;
+  }
